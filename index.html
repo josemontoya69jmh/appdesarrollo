@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Desarrollo de Aplicaciones y Páginas Web Adaptables para todo tipo de dispositivos, navegadores y sistemas operativos"/>
+    <meta name="keywords" content="Diseño, Paginas Web, Desarrollo, Aplicaciones" />
+    
+    <meta name="José Montoya" content="AppDesarrollo"/>
+    
+    
+    
+    <meta name="msapplication-TileImage" content="/title.png" />
+	<meta name="msapplication-TileColor" content="#d83434" />
+	
+    
+
+        <title>AppDesarrollo</title>
+      <link rel="shortcut icon" href="/favicon.ico">
+      <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+        <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/ico/apple-touch-icon-144-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/ico/apple-touch-icon-114-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/ico/apple-touch-icon-72-precomposed.png">
+        <link rel="apple-touch-icon-precomposed" href="img/ico/apple-touch-icon-57-precomposed.png">
+			
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="192x192"  href="/android-icon-192x192.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/favicon-96x96.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<meta name="msapplication-TileColor" content="#ffffff">
+<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+<meta name="theme-color" content="#ffffff">
+
+
+
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: http://bootswatch.com/flatly/ -->
+    <link href="lib/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/freelancer.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="font-awesome-4.1.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    
+    
+	<link rel="stylesheet" href="lib/flexslider.css">
+    <link rel="stylesheet" href="lib/animate.css">
+    <link rel="stylesheet" href="css/style.css">
+  
+    <!--<link rel="stylesheet" href="lib/css/textoaleatorio.css">--> <!-- Resource style -->
+	<!--<script src="lib/js/modernizr.js"></script>-->
+	  <script type="text/javascript">
+		//El body tiene que tener una altura superior a la pantalla en 50px para que
+		//desaparezca...en galaxy es 510px de altura
+    
+		
+					window.addEventListener("load",function() {
+					 setTimeout(function(){
+					 window.scrollTo(0, 1);
+					 }, 0);
+					 });
+
+				
+   </script> 
+   
+   <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-55648954-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</head>
+
+<body id="page-top" class="index">
+    
+
+
+
+    
+ 
+
+    <!-- Navigation  onload="abreSinNavegacion()"-->
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Cambio de navegación</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    
+                </button>
+                <a class="navbar-brand ver1" href="#page-top"><span class="glyphicon glyphicon-home"></span></a>
+                
+                
+                
+                <a class="navbar-brand ver2" href="#page-top"><span> <img src="appdesarrollo.png" width="30px" style="float:left; margin-right:10px; margin-bottom:10px" title="appdesarrollo" alt="appdesarrollo" ></span> AppDesarrollo</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                   <!-- <li class="page-scroll " >
+                        <a href="#page-top"><span class="glyphicon glyphicon-home"></a>
+                    </li>-->
+                    <li class="page-scroll">
+                        <a href="#servicios" > Servicios</a>
+                    </li>
+                    <li class="page-scroll">
+                        <a href="#equipo" >Equipo</a>
+                    </li>
+                  
+                     <li class="page-scroll">
+                        <a href="#contacto">Contacto</a>
+                    </li>
+                      <li class="page-scroll">
+                        <a href="#" id="usuarios"  class=" btn btn-success btn-lg" style="margin:2px">Usuarios</a>
+                    </li>
+                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+    
+    <div  class="success">
+        <div class="container" >
+              <div class="row">
+                   <div class="col-lg-12">
+                    <!--Div del slider-->
+                    
+                                   <div   class="cambiarconten2">
+                                    <br>
+                                
+                                     <br/>
+                                
+                                            <div class="intro-text">
+                                                    <br/>
+                                                    <img src="appdesarrollo.png" class="img-thumbnail" alt="Desarrollo web" title="appdesarrollo"><br/>
+                                                    <span class="name actuar">AppDesarrollo.es</span>
+                                                    <hr class="star-light">
+                                                      
+                                                      <br/>
+                                                    <span class="skills actuar">Desarrollo de Aplicaciones para dispotitivos</span>
+                                                      <br/>
+                                                    <br/>
+                                                    <span class="skills actuar">Diseño Web Adatable</span>
+                                                    <br/>
+                                                    <br/>
+                                             </div>
+                                  </div>
+                                
+                    
+                                    <div  class="cambiarconten1">
+                                        <div class="flexslider" >
+                                              <ul class="slides">
+                                                        <li data-thumb="img/slider/appdesarrollo1.jpg">
+                                                            <img src="img/slider/appdesarrollo1.jpg" title="Aplicaciones Web" title="Desarrollos integrales">
+                                                            <p class="flex-caption">Todas las plataformas</p>
+                                                        </li>
+                                                        <li data-thumb="img/slider/appdesarrollo2.jpg">
+                                                            <img src="img/slider/appdesarrollo2.jpg" title="Web responsive" alt="Paginas adaptables">
+                                                            <p class="flex-caption">Páginas Webs multiplataforma</p>
+                                                        </li>  
+                                                        
+                                                                                                
+                                                        <li data-thumb="img/slider/appdesarrollo5.jpg">
+                                                            <img src="img/slider/appdesarrollo5.jpg" alt="Posicionamiento Seo" title="Adwords">
+                                                            <p class="flex-caption">Posicionamiento Natural o Adwords</p>
+                                                        </li>
+                
+                                                        <li data-thumb="img/slider/appdesarrollo3.jpg">
+                                                            <img src="img/slider/appdesarrollo3.jpg" alt=" Aplicaciones Web" title="AppDesarrollo">
+                                                            <p class="flex-caption">Expertos para cualquier circustancia</p>
+                                                        </li>
+                                                        <li data-thumb="img/slider/appdesarrollo4.jpg">
+                                                            <img src="img/slider/appdesarrollo4.jpg" alt=" Aplicaciones Web" title="AppDesarrollo">
+                                                            <p class="flex-caption">Consulta  precios sin compromiso</p>
+                                                        </li>
+                                        
+                                            
+                                              </ul>
+                                         </div><!--Fin del class flexslider-->
+                    
+                    
+                                
+                                 </div> 
+                                 <!--fin del class cambarconte1-->
+                </div><!--Fin de class="col-lg-12-->
+            </div><!--Fin declass="row"-->
+        </div><!--Fin del container-->
+  </div><!--Fin success-->       
+    </header>
+
+    <!-- Servicios Grid Section -->
+    <section id="servicios">
+      <div class="container">
+            <div class="row alturafija">
+                <div class="col-lg-12 text-center">
+                <br>
+                    <h2  class="nadaservicios none">Servicios</h2>
+                    <hr class="star-primary nadaservicios none">
+                </div>
+            </div>
+     <div class="row   ">
+     <div class="servi">
+  
+     </div>
+            
+            
+            
+            
+                <div class="col-sm-4 portfolio-item   ">
+                 
+                    <a href="#portfolioModal1"  data-toggle="modal">
+                        
+                        <img src="img/portfolio/apps.png" class="img-responsive "  alt=" Aplicaciones Web" title="AppDesarrollo">
+                        <!-- <img src="img/portfolio/leermas.png" class="img-responsive  leermas"  alt=""> -->
+                    </a>
+                </div>
+                
+                
+                
+                
+                <div class="col-sm-4 portfolio-item">
+               
+                
+                
+                    <a href="#portfolioModal2"  data-toggle="modal">
+                     
+                        <img src="img/portfolio/webs.png" class="img-responsive" alt=" Aplicaciones Web" title="AppDesarrollo">
+                         <!-- <img src="img/portfolio/leermas.png" class="img-responsive  leermas"  alt=""> -->
+                    </a>
+                </div>
+                
+                
+                
+                
+                
+                <div class="col-sm-4 portfolio-item">
+                
+               
+                    <a href="#portfolioModal3"  data-toggle="modal">
+                  
+                        <img src="img/portfolio/seo.png" class="img-responsive" alt=" Aplicaciones Web" title="AppDesarrollo">
+                         <!-- <img src="img/portfolio/leermas.png" class="img-responsive  leermas"  alt=""> -->
+                    </a>
+                </div>
+                
+
+                
+                
+                
+            </div>
+             <div class="servi">
+        
+             </div>
+        </div>
+    </section>
+	<!--Fin del Grid de Servicios-->
+    
+    <!-- Equipo Section -->
+    <section class="success" id="equipo">
+        <div class="container">
+            <div class="row alturafija">
+                <div class="col-lg-12 text-center">
+                 <br>
+                    <h2  class="nadaequipo	none">Equipo</h2>
+                    <hr class="star-light nadaequipo none">
+                </div>
+            </div>
+            <div class="row  ">
+                        <div class="servi">
+                       </div>
+    
+            
+                <div class="col-sm-6 ">
+                <h2 style="text-align:center">Profesionales cualificados</h2>
+                
+        
+                <br/>
+                    <p><strong>AppDesarrollo</strong> es lider en el desarrollo de aplicaciones para móviles y tablets, así como en la creación de Páginas Web adaptables a todos los dispositivos  y sistemas operativos existentes.</p>
+                    <p>Tenemos avalada experiencia como desarrolladores de aplicaciones para los sistemas operativos Android, iPhone, Windows Phone y para Blackberry.</p>
+                    <p></p>
+                    <p></p>
+                </div>
+                
+                
+                
+                
+                <div class="col-sm-6">
+                
+                          
+                            <h2 style="text-align:center">Programación innovadora</h2>
+                            <br/>
+                            <p>Estamos especializados en multiples disciplinas </p>
+                            
+                            <div class="row">
+                             <div class="col-sm-6">
+                                        
+                                         <ul>
+                                        <li>HTML 5 y CSS3</li>
+                                        <li>Boostrap</li>
+                                        <li>Sass</li>
+                                        <li>Javascript</li>
+                                        <li>JQUERY - JQUERY MOBILE</li>
+                                        <li>PHP, Mysql, Sqlite. </li>
+                                         <li>Posicionamiento Seo - Adwords</li>
+                                        </ul> 
+                            </div>
+                            
+                              <div class="col-sm-6">
+                              
+                                      
+                                        
+                                        <ul>
+                                        <li>Tienda Online</li>
+                                        <li>Android</li>
+                                        <li>IOS</li>
+                                        <li>Windows Phone</li>
+                                        <li>BlackBerry </li>
+                                         </ul>
+                            </div>
+                            
+                            </div>
+                            
+                            <p></p>
+                            <p></p>
+                </div>
+              
+            </div>
+            <br/>
+            <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/operativo/Android.png" width="70%" ></a>
+                            </li>
+                            <li>
+                               <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/operativo/poster.png" width="70%" ></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/operativo/ios.png" width="70%" ></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/operativo/images.png" width="70%" ></a>
+                            </li>
+                                                        <li>
+                                <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/operativo/playstore.png" width="70%" ></a>
+                            </li>
+
+                          
+                        </ul>
+                    </div>
+            <div class="servi">
+           </div>
+        </div>
+    </section>
+    
+	<!--Plantillas  Section-->
+    
+    <!--<section id="plantillas">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Escoge la plantilla para tu proyecto</h2>
+                    <hr class="star-light">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-lg-offset-2">
+                    <p>Otro.</p>
+                </div>
+                <div class="col-lg-4">
+                    <p>Elige la plantilla que más te gusta o más se adacpta a tu proyecto o empresa.</p>
+                </div>
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <a href="#" class="btn btn-lg btn-outline">
+                        <i class="fa fa-download"></i> Download Theme
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    
+
+    
+    
+    <!-- Contacto Section -->
+    <section   id="contacto">
+        <div class="container">
+            <div class="row ">
+                <div class="col-lg-12 text-center">
+                 <br>
+                    <h2 class="nadacontacto none">Contacto</h2>
+                    <hr class="star-primary nadacontacto none">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <!-- To configure the contact form email address, go to mail/contact_me.php and update the email address in the PHP file on line 19. -->
+                    <!-- The form should work on most web servers, but if the form is not working you may need to configure your web server differently. -->		<div class="ajustaramovil">
+                        <form name="sentMessage" id="contactForm" novalidate>
+                            <div class="row control-group">
+                                <div class="form-group col-xs-12 floating-label-form-group controls">
+                                    <label>Nombre</label>
+                                    <input type="text" class="form-control" placeholder="Nombre" id="name" required data-validation-required-message="Porfavor introduce tu nombre.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="row control-group">
+                                <div class="form-group col-xs-12 floating-label-form-group controls">
+                                    <label>Dirección de Email</label>
+                                    <input type="email" class="form-control" placeholder="Dirección Email" id="email" required data-validation-required-message="Porfavor, introduce tu Email.">
+                                    <p class="danger"></p>
+                                </div>
+                            </div>
+                           <!-- <div class="row control-group">
+                                <div class="form-group col-xs-12 floating-label-form-group controls">
+                                    <label>Numero de telefono</label>
+                                    <input type="tel" class="form-control" placeholder="Número de Telefono" id="phone" required data-validation-required-message="Porfavor, introudce tu número de teléfono.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>-->
+                            <div class="row control-group">
+                                <div class="form-group col-xs-12 floating-label-form-group controls">
+                                    <label>Mensaje</label>
+                                    <textarea rows="3" class="form-control" placeholder="Mensaje" id="message" required data-validation-required-message="Porfavor, introduce tu mensaje."></textarea>
+                                    
+                                    
+                                    
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <!--<br>-->
+                            <div id="success"></div>
+                            <div class="row">
+                            <br>
+                                    <div class=" form-group col-xs-6 ">
+                                        <button type="submit"  class="btn btn-success btn-lg" id="enviar">Enviar</button>
+                                      
+                                    </div>
+                                    <div class=" form-group col-xs-6 ">
+                                      <span  id="mitelefono1" class="btn btn-success btn-lg"  id="mitelefono2"><i class="fa fa-phone-square"></i>&nbsp600 49 56 99</span>
+                                      <a href="tel:+34600495699" class="btn btn-success btn-lg"  id="mitelefono2">Llamar</a>  
+                                 
+                                </div>
+                            </div>
+                        </form>
+                        </div>
+                        
+                        
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center">
+        <div class="footer-above">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col col-md-4">
+                        <h3>Localización</h3>
+                        <p>30833 Sangonera la Verde<br>Parrales 12, Murcia<br><i class="fa fa-phone-square"></i>&nbsp600 49 56 99</p>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>Disciplinas</h3>
+                        <ul class="list-inline">
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/HTML5_Logo_512.png" width="70%" ></a>
+                            </li>
+                            <li>
+                               <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/css3-logo.png" width="70%" ></a>
+                            </li>
+                            <li>
+                                <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/bootstrap-logo.png" width="70%" ></a>
+                            </li>
+                             <li>
+                                <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/javascript.png" width="70%" ></a>
+                            </li>
+                             <li>
+                                <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/jquery-logo.png" width="70%" ></a>
+                            </li>
+                             <li>
+                                <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/mysql.png" width="70%" ></a>
+                            </li>
+                              <li>
+                                <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/phplogo.png" width="70%" ></a>
+                            </li>
+                              <li>
+                                <a href="#" class="btn-social btn-outline"><img src="img/logosoficiales/sass.png" width="70%" ></a>
+                            </li>
+                          
+                        </ul>
+                    </div>
+                    <div class="footer-col col-md-4">
+                        <h3>José Montoya</h3>
+                        <p style="font-size:0.8em">Mi nombre es José Montoya, y soy de Murcia (España).
+Desde el año 2004 trabajo de desarrollador web y Aplicaciones para dispositivos en las disciplinas de diseño, programación y SEO. </p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-below">
+            <div class="container">
+                <div class="row">
+                
+                      <div class="col-lg-6">
+                      <a href="#"> <img src="img/josemontoya.png"  class="img-responsive"  style="margin:0 auto"alt="jose montoya" title="Jose Montoya"> </a>
+                      <br/>
+                      José Montoya -2014-
+                       <br/>
+                       <br/>
+                       <br/>
+                      </div>
+                      
+                      <div class="col-lg-6">
+                      <a href="#"><img src="appdesarrollo.png"  class="img-responsive"  style="margin:0 auto" title="appdesarrollo" alt="appdesarrollo" > </a>
+                      <br/>
+                      AppDesarrollo
+                      </div>
+                      
+                      
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+    <div class="scroll-top page-scroll visible-xs visble-sm">
+        <a class="btn btn-primary" href="#page-top">
+            <i class="fa fa-chevron-up"></i>
+        </a>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Servicios Modals -->
+    
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+        
+                            
+               <div class="container">
+                           <div class="row">
+                				  <div class="col-xs-12 ">
+                                        <div class="modal-body">
+                                        <br>
+                                        <h2>Desarrollo de Aplicaciones</h2>
+                                        <hr class="star-primary">
+                                       </div>  
+                                       
+                                   </div>
+                                  
+                                
+                                   
+                               <div class="row">
+                               
+                                               <div class="col-sm-6 ">
+                                               
+                                               <img src="img/portfolio/aplicaciones_moviles.png" class="img-responsive img-centered" alt="">
+                                               </div>
+                                               
+                                                                                              
+                                               <div class="col-sm-6 ">
+                                               <br/>
+                                               <br/>
+                                               <div style="text-align:left; margin-left:7px">
+                                                 <p><strong>N</strong>uestro equipo de desarrollo de aplicaciones para dispositivos smartphones tiene una sólida experiencia programando apps para cualquier sistema operativo. Gestionamos tu proyecto de manera integral hasta su publicación en <strong>Google Play</strong> o markets alternativos</p>
+                                                 <p><strong>AppDesarrollo</strong> te asesora en el diseño de tu aplicación y optimiza el desarrollo para los distintos terminales, tanto tablets como smartphones.
+                                                 Integración de funcionalidades nativas y tecnologías de vanguardia como geolocalización, base de datos, acelerometro, agenda, notificaciones push etc..</p>
+                                                 <p>Consideramos esencial la experiencia de usuario y el interface gráfico, aspectos especialmente cuidados por el equipo de desarrollo que cuenta con más de 4 años de experiencia. </p>
+                                                 <p>Los proyectos multiplataforma exigen conocer las particularidades de cada una de ellas, AppDesarrollo adapta cada una de las versiones y optimiza la experiencia de usuario.</p>
+                                               </div>
+                                               
+                                               
+                                               </div>
+
+                                
+                                </div>
+                                
+                                
+                                
+                                
+                                
+                                
+                
+            </div>
+        </div>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+    </div>
+     </div>
+    <!---------------------------------------------------------------------------->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+        				
+                            
+               <div class="container">
+                           <div class="row">
+                				  <div class="col-xs-12 ">
+                                        <div class="modal-body">
+                                        <br>
+                                        <h2>Web Adaptable a los Dispositivos</h2>
+                                        <hr class="star-primary">
+                                       </div>  
+                                       
+                                   </div>
+                                  
+                                
+                                   
+                               <div class="row">
+                               
+                                               <div class="col-sm-6 ">
+                                               
+                                               <img src="img/portfolio/paginasweb.png" class="img-responsive img-centered" alt="">
+                                               </div>
+                                               
+                                                                                              
+                                               <div class="col-sm-6 ">
+                                               <br/>
+                                               <br/>
+                                               <div style="text-align:left; margin-left:7px">
+  <p><strong>E</strong>n estos días se ha incrementado muchísimo el acceso a Internet desde dispositivos móviles. Cada vez más gente accede a páginas web desde sus móviles en lugar de hacerlo desde ordenadores.</p>
+                                                 <p>Una página web tradicional, diseñada para verse en una pantalla de ordenador, no funciona bien para los dispositivos smartphones. <strong>Hay que adaptarla para que se vea bien en una pantalla mucho más pequeña</strong>. De lo contrario, la navegación sería muy incómoda y habría que estar haciendo zoom en los contenidos todo el tiempo. Por ello, se organizan los contenidos en vertical y a un tamaño de letra más grande para que se puedan visualizar bien.</p>
+                                                 
+                                                 <p>Los sitios móviles tienen un diseño adaptado a la pantalla de un Smartphone y tienen en cuenta las necesidades de los usuarios. La navegabilidad es mucho mejor que en una página web tradicional.</p>
+                                                 <p>En <strong>AppDesarrollo</strong> estamos especializados y tenemos mucha experiencia en desarrollar y diseñar páginas web optimizadas para todo tipo de dispositivos, bien sea a partir de una página web ya existente o creándola directamente por nosotros.</p>
+                                               </div>
+                                               
+                                               
+                                               </div>
+
+                                
+                                </div>
+                                
+                                
+                                
+                                
+                                
+                                
+                
+            </div>
+        </div>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+    </div>
+     </div>
+    		<!--------------------------------------------------------------------->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+        			
+                            
+               <div class="container">
+                           <div class="row">
+                				  <div class="col-xs-12 ">
+                                        <div class="modal-body">
+                                        <br>
+                                        <h2>Posicionamiento Seo y Adwords</h2>
+                                        <hr class="star-primary">
+                                       </div>  
+                                       
+                                   </div>
+                                  
+                                
+                                   
+                               <div class="row">
+                               
+                                               <div class="col-sm-6 ">
+                                               
+                                               <img src="img/portfolio/posicionamientoseo.png" class="img-responsive img-centered" alt="">
+                                               </div>
+                                               
+                                                                                              
+                                               <div class="col-sm-6 ">
+                                               <br/>
+                                               <br/>
+                                               <div style="text-align:left; margin-left:7px">
+  <p><strong>H</strong>oy en día quien no aparece en Google no existe. Por eso, en <strong>AppDesarrollo</strong> tenemos un equipo dedicado a conseguir el mejor posicionamiento posible en los buscadores para nuestros clientes. SEO viene del inglés y significa Search Engine Optimization, es decir, optimización en los motores de búsqueda.</p>
+                                                 <p>Nuestros especialistas están en constante proceso de actualización para estar siempre al día en las últimas técnicas y metodología para conseguir un buen posicionamiento en las búsquedas, especialmente en Google, que es el líder absoluto en España. El 82% de los internautas escoge Google para sus búsquedas.</p>
+                                                  <p>En AppDesarrollo analizamos su web y le asesoramos sobre cómo debe estar construida para que cumpla con los requisitos de los buscadores. También participamos, desde el principio, en la construcción de un sitio Web para asegurar que se hace conforme a los criterios de Google.</p>
+                                                 <p>Asimismo, localizamos las palabras clave negativas que hay que evitar.</p>
+                                               </div>
+                                               
+                                               
+                                               </div>
+
+                                
+                                </div>
+                                
+                                
+                                
+                                
+                                
+                                
+                
+            </div>
+        </div>
+        <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Cerrar</button>
+    </div>
+     </div>
+    
+    
+    
+    
+    
+    
+    
+    
+
+    <!-- jQuery Version 1.11.0 -->
+    <script src="lib/jquery-1.8.3.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="lib/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+   <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>-->
+    <script src="lib/jquery.easing.min.js"></script>
+    <!--<script src="js/classie.js"></script>-->
+    <!--<script src="js/cbpAnimatedHeader.js"></script>-->
+
+    <!-- Contact Form JavaScript -->
+    <!--<script src="js/jqBootstrapValidation.js"></script>-->
+    <script src="js/contact_me.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/freelancer.js"></script>
+	<script src="lib/jquery.flexslider.js"></script>
+    <!-- <script src="lib/js/textoaleatorio.js"></script> -->
+    <script src="js/index.js"></script>
+     <!-- Insert these scripts at the bottom of the HTML, but before you use any Firebase services -->
+
+
+  
+  
+   <script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyA2SPFMzpHOGTrPtxseA1SAeeWa5HLFMdI",
+    authDomain: "appdesarrollo-675f9.firebaseapp.com",
+    databaseURL: "https://appdesarrollo-675f9.firebaseio.com",
+    projectId: "appdesarrollo-675f9",
+    storageBucket: "appdesarrollo-675f9.appspot.com",
+    messagingSenderId: "1037513100827",
+    appId: "1:1037513100827:web:91a5de19da54a206bcf2be",
+    measurementId: "G-FFFHDP59ZK"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+       
+       
+       
+    if ("serviceWorker" in navigator) {
+  if (navigator.serviceWorker.controller) {
+    console.log("[PWA Builder] active service worker found, no need to register");
+  } else {
+    // Register the service worker
+    navigator.serviceWorker
+      .register("pwabuilder-sw.js", {
+        scope: "./"
+      })
+      .then(function (reg) {
+        console.log("[PWA Builder] Service worker has been registered for scope: " + reg.scope);
+      });
+  }
+}
+   
+       
+       
+       
+       
+       
+</script>
+    
+</body>
+
+</html>
